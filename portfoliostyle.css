@@ -18,11 +18,11 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	padding: 0 25px 0 25px;
 }
 
 nav button {
 	margin-left: 10px;
-/*	height: 20px;*/
 	padding: 10px;
 	border-radius: 10px;
 	background-color: #29648a;
@@ -34,11 +34,29 @@ main {
 	margin: 0 auto;
 	width: 800px;
 	flex-direction: column;
-	background-color: #464866;
-	color: #ffffff;
 }
 
 .about {
-	height: 10%;
-	/*margin: 20%;*/
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	padding: 0 25px 0 25px;
+	background-color: #464866;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+.about div {
+	flex-direction: row
+	justify-content: space-between;
+}
+
+h2 {
+	margin-bottom: 0px;
+}
+.about img {
+	width: 240px;
+	height: 180px;
+	object-fit: scale-down;
+	margin-right: 25px;
 }
