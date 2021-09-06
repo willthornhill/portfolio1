@@ -1,0 +1,44 @@
+* {
+	Box-sizing: border-box;
+	font-family: monaco;
+}
+
+div {
+	display: flex;
+}
+
+body {
+	background-color: #aaabb8;
+}
+
+nav {
+	display: flex;
+	background-color: #25274d;
+	color: #ffffff;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav button {
+	margin-left: 10px;
+/*	height: 20px;*/
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #29648a;
+	color: #ffffff;
+	border-color: #2e9cca;
+}
+
+main {
+	margin: 0 auto;
+	width: 800px;
+	flex-direction: column;
+	background-color: #464866;
+	color: #ffffff;
+}
+
+.about {
+	height: 10%;
+	/*margin: 20%;*/
+}
