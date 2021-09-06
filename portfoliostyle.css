@@ -8,7 +8,10 @@ div {
 }
 
 body {
-	background-color: #aaabb8;
+	/*background-color: #aaabb8;*/
+	background-image: url("snow-3161134_1920.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 nav {
@@ -36,6 +39,7 @@ main {
 	flex-direction: column;
 }
 
+
 .about {
 	display: flex;
 	flex-direction: column;
@@ -59,4 +63,30 @@ h2 {
 	height: 180px;
 	object-fit: scale-down;
 	margin-right: 25px;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	padding: 0 25px 0 25px;
+	background-color: #464866;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
+.project-container {
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	margin-top: 25px;
+	padding: 0 25px 0 25px;
+	background-color: #464866;
+	color: #ffffff;
+	border-radius: 10px;
 }
