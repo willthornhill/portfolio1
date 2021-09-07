@@ -13,6 +13,7 @@ body {
 	background-image: url("images/snow-3161134_1920.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-size: cover;
 }
 
 nav {
@@ -40,6 +41,8 @@ main {
 /*	width: 60%;*/
 	flex-direction: column;
 	display: flex;
+	
+/*	font-size: vw;*/
 }
 
 
@@ -125,6 +128,7 @@ h3 {
 	color: #ffffff;
 	border-radius: 10px;
 	align-self: center;
+	width: 800px;
 }
 
 .contacts-icons {
@@ -174,6 +178,7 @@ button:hover {
 }
 
 
+			/*Media Queries*/
 
 @media screen and (max-width: 850px) {
 	.project-container {
@@ -222,7 +227,41 @@ button:hover {
 @media screen and (max-width: 700px) {
 	.about-projects {
 		flex-direction: column;
-		margin: 0 auto;
-		width: 400px;
+		/*margin: 0 auto;
+		width: 400px;*/
+		align-items: center;
+		
 	}
 }
+
+@media screen and (max-width: 700px) {
+	.contacts {
+		width: 40%;
+	}
+}
+
+/*@media screen and (max-width: 400px) {
+	.about {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.projects {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.about {
+		flex-direction: column;
+		/*width: 350px;*/
+		width: 90%;
+	}
+}*/
+
+/*@media screen and (max-width: 400px) {
+	.project-container {
+		flex-direction: row;
+	}
+}*/
