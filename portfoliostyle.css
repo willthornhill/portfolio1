@@ -24,6 +24,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 0 25px 0 25px;
+	width: 100%;
 }
 
 nav button {
@@ -42,7 +43,7 @@ main {
 	flex-direction: column;
 	display: flex;
 	
-/*	font-size: vw;*/
+	font-size: 1.5vw;
 }
 
 
@@ -66,11 +67,11 @@ h2 {
 	margin-top: 0px;
 }
 .about img {
-	width: 240px;
-	height: 180px;
+/*	width: 240px;
+	height: 180px;*/
 	object-fit: scale-down;
 	margin-right: 25px;
-	max-width: 100%;
+	max-width: 40%;
 }
 
 .about-projects {
@@ -178,7 +179,7 @@ button:hover {
 }
 
 
-			/*Media Queries*/
+/*-----------------Media Queries---------------------*/
 
 @media screen and (max-width: 850px) {
 	.project-container {
@@ -240,15 +241,24 @@ button:hover {
 	}
 }
 
-/*@media screen and (max-width: 400px) {
+@media screen and (max-width: 700px) {
+	.about img {
+		object-fit: scale-down;
+		max-width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 400px) {
 	.about {
-		width: 90%;
+		width: 80%;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.projects {
-		width: 90%;
+		width: 80%;
 	}
 }
 
@@ -256,12 +266,25 @@ button:hover {
 	.about {
 		flex-direction: column;
 		/*width: 350px;*/
-		width: 90%;
+		width: 80%;
+		padding: 0 50px 0 50px;
 	}
-}*/
+}
 
-/*@media screen and (max-width: 400px) {
+@media screen and (max-width: 400px) {
 	.project-container {
-		flex-direction: row;
+		flex-direction: column;
 	}
-}*/
+}
+
+@media screen and (max-width: 400px) {
+	main {
+		font-size: 12vw;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.contacts {
+		width: 80%;
+	}
+}
