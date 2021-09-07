@@ -145,6 +145,12 @@ h3 {
 .fa-linkedin {
   background: #007bb5;
   color: #ffffff;
+}
+
+.fa-phone {
+	background: green;
+	color: #ffffff;
+}
 
 .fa:hover {
   opacity: 0.7;
