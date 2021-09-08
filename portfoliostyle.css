@@ -1,3 +1,5 @@
+/*-----------------General---------------------*/
+
 * {
 	Box-sizing: border-box;
 	font-family: monaco;
@@ -14,6 +16,8 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 }
+
+/*-----------------Navigation bar---------------------*/
 
 nav {
 	display: flex;
@@ -42,6 +46,8 @@ main {
 	display: flex;
 	font-size: 1.5vw;
 }
+
+/*-----------------About Section---------------------*/
 
 .about {
 	display: flex;
@@ -72,6 +78,8 @@ h2 {
 	display: flex;
 	flex-direction: column;
 }
+
+/*-----------------Projects Section---------------------*/
 
 .projects {
 	display: flex;
@@ -112,6 +120,7 @@ h3 {
 	border-color: #2e9cca;
 }
 
+/*-----------------Contacts Section---------------------*/
 
 .contacts {
 	display: flex;
@@ -242,7 +251,7 @@ button:hover {
 	h3 {
 		font-size: 6vw;
 	}
-	/*.projects*/h2{
+	h2{
 		font-size: 8vw;
 		margin-bottom: 10px;
 	}
