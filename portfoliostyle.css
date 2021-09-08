@@ -9,7 +9,6 @@ div {
 }
 
 body {
-	/*background-color: #aaabb8;*/
 	background-image: url("images/snow-3161134_1920.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -23,7 +22,7 @@ nav {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 25px 0 25px;
+	padding: 0 25px;
 	width: 100%;
 }
 
@@ -41,16 +40,14 @@ main {
 	width: 90%;
 	flex-direction: column;
 	display: flex;
-	
 	font-size: 1.5vw;
 }
-
 
 .about {
 	display: flex;
 	flex-direction: column;
 	margin-top: 25px;
-	padding: 25px 25px 25px 25px;
+	padding: 25px;
 	background-color: #464866;
 	color: #ffffff;
 	border-radius: 10px;
@@ -104,7 +101,7 @@ h3 {
 .projects img {
 	width: 100px;
 	height: 100px;
-	margin: 10px 0 10px 0;
+	margin: 10px 0;
 }
 
 .projects button {
@@ -121,7 +118,7 @@ h3 {
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 25px;
-	padding: 0 25px 0 25px;
+	padding: 0 25px;
 	background-color: #464866;
 	color: #ffffff;
 	border-radius: 10px;
@@ -134,7 +131,7 @@ h3 {
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 10px;
-	padding: 0 25px 0 25px;
+	padding: 0 25px;
 	border-radius: 10px;
 }
 
@@ -204,7 +201,6 @@ button:hover {
 @media screen and (max-width: 850px) {
 	.about {
 		flex-direction: column;
-		/*width: 350px;*/
 		width: 40%;
 		font-size: 2.4vw;
 	}
@@ -214,7 +210,6 @@ button:hover {
 @media screen and (max-width: 850px) {
 	.projects {
 		flex-direction: column;
-		/*width: 350px;*/
 		width: 40%;
 		font-size: 2.4vw;
 	}
@@ -260,8 +255,6 @@ button:hover {
 
 @media screen and (max-width: 700px) {
 	.project-container img {
-		/*object-fit: scale-down;
-		max-width: 100%;*/
 	}
 }
 
@@ -279,7 +272,7 @@ button:hover {
 	.about {
 		flex-direction: column;
 		width: 80%;
-		padding: 0 20px 0 20px;
+		padding: 0 20px;
 		font-size: 6vw;
 	}
 }
