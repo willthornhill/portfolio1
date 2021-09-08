@@ -222,7 +222,7 @@ button:hover {
 	.about {
 		flex-direction: column;
 		width: 80%;
-		padding: 0 20px;
+		padding: 20px 20px 0 20px;
 		font-size: 6vw;
 	}
 	.project-container {
@@ -238,5 +238,12 @@ button:hover {
 	nav {
 		flex-direction: column;
 		padding-bottom: 10px;
+	}
+	h3 {
+		font-size: 6vw;
+	}
+	/*.projects*/h2{
+		font-size: 8vw;
+		margin-bottom: 10px;
 	}
 }
